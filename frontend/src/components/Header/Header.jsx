@@ -50,7 +50,7 @@ const Header = () => {
 
                     {/*Logo*/}
                     <div>
-                        <img src={logo} alt={''}/>
+                        <img src={logo} width={'200px'} height={'34px'} alt={''}/>
                     </div>
 
                     {/*Menu*/}
