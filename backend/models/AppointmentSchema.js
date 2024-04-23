@@ -1,6 +1,7 @@
-import mongoose from "mongoose";
+const mongoose =  require("mongoose");
 
-const bookingSchema = new mongoose.Schema(
+
+const appointmentSchema = new mongoose.Schema(
     {
         doctor:{
             type: mongoose.Types.ObjectId,
@@ -19,13 +20,11 @@ const bookingSchema = new mongoose.Schema(
             type: Date,
             required: true
         },
-
         status: {
             type: String,
             enum: ["pending", "approved", "cancelled"],
             default: "pending",
         },
-
         isPaid: {
             type: Boolean,
             default: true,
@@ -34,4 +33,5 @@ const bookingSchema = new mongoose.Schema(
     {timestamps: true}
 );
 
-export default mongoose.model("Booking", bookingSchema);
+const appointmentModel = mongoose.model("appointment", appointmentSchema);
+module.exports = appointmentModel;
