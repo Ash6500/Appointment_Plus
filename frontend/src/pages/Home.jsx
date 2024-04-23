@@ -32,7 +32,7 @@ const Home = () => {
                                 <h1 className={'text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px] md:leading-[70px]'}>
                                     We help patients live a healthy, longer life.
                                 </h1>
-                                <p className={'text_para'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis bibendum fringilla. Nunc euismod nunc sed leo fermentum, vitae venenatis quam finibus. Nullam fermentum imperdiet dui, sed tincidunt augue luctus.</p>
+                                <p className={'text_para'}>Streamline your medical appointment scheduling effortlessly with our intuitive web application. From routine check-ups to specialized care, our platform seamlessly connects you with trusted healthcare providers in your vicinity. Bid farewell to cumbersome wait times and phone calls – elevate your healthcare journey with us today.</p>
 
                                 <button className={'btn'}>Request an Appointment</button>
                             </div>
@@ -99,9 +99,7 @@ const Home = () => {
                                     Find a Doctor
                                 </h2>
                                 <p className={'text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'}>
-                                    World-class care for everyone. Our health System offers unmatched, expert health
-                                    care.
-                                    From the lab to the clinic.
+                                    Discover the perfect match for your healthcare needs. Explore our extensive network of skilled doctors ready to provide personalized care tailored to you.
                                 </p>
 
                                 <Link to={'/doctors'}
@@ -121,9 +119,7 @@ const Home = () => {
                                     Find a Location
                                 </h2>
                                 <p className={'text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'}>
-                                    World-class care for everyone. Our health System offers unmatched, expert health
-                                    care.
-                                    From the lab to the clinic.
+                                    Locate the closest healthcare facility with ease. Our platform simplifies the search for medical centers near you, ensuring convenience and accessibility to quality care.
                                 </p>
 
                                 <Link to={'/doctors'}
@@ -143,9 +139,7 @@ const Home = () => {
                                     Book Appointment
                                 </h2>
                                 <p className={'text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'}>
-                                    World-class care for everyone. Our health System offers unmatched, expert health
-                                    care.
-                                    From the lab to the clinic.
+                                    Secure your next appointment in just a few clicks. Our seamless booking system empowers you to schedule with ease, ensuring timely access to the care you deserve.
                                 </p>
 
                                 <Link to={'/doctors'}

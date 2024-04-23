@@ -33,7 +33,7 @@ const Testimonial = (props) => {
                             <img src={patientAvatar} alt={''}/>
                             <div>
                                 <h4 className={'text-[18px] leading-[30px] font-semibold text-headingColor'}>
-                                    Muhibur Rahman
+                                    James Smith
                                 </h4>
                                 <div className={'flex items-center gap-[20px]'}>
                                     <HiStar className={'text-yellowColor w-[18px] h-5'}/>
@@ -55,7 +55,7 @@ const Testimonial = (props) => {
                             <img src={patientAvatar} alt={''}/>
                             <div>
                                 <h4 className={'text-[18px] leading-[30px] font-semibold text-headingColor'}>
-                                    Muhibur Rahman
+                                    Michael Jordan
                                 </h4>
                                 <div className={'flex items-center gap-[20px]'}>
                                     <HiStar className={'text-yellowColor w-[18px] h-5'}/>
@@ -77,7 +77,7 @@ const Testimonial = (props) => {
                             <img src={patientAvatar} alt={''}/>
                             <div>
                                 <h4 className={'text-[18px] leading-[30px] font-semibold text-headingColor'}>
-                                    Muhibur Rahman
+                                    Sheldon Cooper
                                 </h4>
                                 <div className={'flex items-center gap-[20px]'}>
                                     <HiStar className={'text-yellowColor w-[18px] h-5'}/>
@@ -99,7 +99,7 @@ const Testimonial = (props) => {
                             <img src={patientAvatar} alt={''}/>
                             <div>
                                 <h4 className={'text-[18px] leading-[30px] font-semibold text-headingColor'}>
-                                    Muhibur Rahman
+                                    Fred Jones
                                 </h4>
                                 <div className={'flex items-center gap-[20px]'}>
                                     <HiStar className={'text-yellowColor w-[18px] h-5'}/>
@@ -121,7 +121,7 @@ const Testimonial = (props) => {
                             <img src={patientAvatar} alt={''}/>
                             <div>
                                 <h4 className={'text-[18px] leading-[30px] font-semibold text-headingColor'}>
-                                    Muhibur Rahman
+                                    Tam Nguyen
                                 </h4>
                                 <div className={'flex items-center gap-[20px]'}>
                                     <HiStar className={'text-yellowColor w-[18px] h-5'}/>
