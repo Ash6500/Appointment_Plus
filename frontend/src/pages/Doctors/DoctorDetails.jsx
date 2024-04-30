@@ -3,6 +3,7 @@ import doctorImg from '../../assets/images/doctor-img02.png'
 import starIcon from '../../assets/images/Star.png'
 import DoctorAbout from "./DoctorAbout.jsx";
 import Feedback from "./Feedback.jsx";
+import SidePanel from "./SidePanel.jsx";
 
 const DoctorDetails = () => {
     const [tab, setTab] = useState('about')
@@ -53,6 +54,10 @@ const DoctorDetails = () => {
                                 tab==='feedback' && <Feedback/>
                             }
                         </div>
+                    </div>
+
+                    <div>
+                        <SidePanel/>
                     </div>
                 </div>
             </div>
